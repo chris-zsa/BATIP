@@ -1,0 +1,15 @@
+### Categories and Conceptualization of Bias in Text-to-Image Models
+
+**Gender Bias**
+- Default Generation: The model's tendency to portray a particular gender when given gender-neutral prompts.
+- Occupational Association: The model's tendency to over-represent or under-represent a particular gender for an occupation.
+- Characteristics and Intersts: The model's tendency to generate a particular gender when prompted to depict individuals with certain
+characteristics or interests like "intelligent".
+- Labels: ["female", "male"]
+
+
+**Skintone Bias**
+- Default Generation: The model's tendency to generate individuals of a certain skintone when skintone was not explicitly specified in the prompt.
+- Occupational Association: The model's tendency to over-represent or under-represent skin tone groups when depicting certain occupations.
+- Characteristics and Intersts: The model's tendency to depict a specific skin tone when prompted to generate individuals with certain characteristics, such as "poor", "pleasant", or "a  criminal".
+- Labels: ["black", "brown", "yellow", "white"]

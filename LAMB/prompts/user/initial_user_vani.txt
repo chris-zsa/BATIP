@@ -1,0 +1,12 @@
+# Task Description
+Identify the possible bias when generating image based on the textual user prompt. List out the bias attributes in a list of adjective strings in Python and also output their antonyms.
+## Textual User Prompt
+Following is the textual user prompt input by user to generate images though a text-to-image diffusion model.
+{user_input}
+(End of Textual User Prompt)
+
+(End of Task Description)
+
+# Examples
+{few_shots}
+(End of Examples)

@@ -1,0 +1,23 @@
+## Analysis Process
+### Reflection
+**Reflection on previous output results**: Should not include patterns like "```python```".
+**Reflection on previous chain of thought**: Should have checked whether both gender and skintone biases are both necessary to be considered.
+(End of Reflection)
+
+### Improved Chain of Thoughts
+(1) Identify all the entities (list-like) possibly with bias in the textual prompt (only those entities with potential bias).
+(2) Predict the potential bias in the generated image through a text-to-image diffusion model according to the background knowledge.
+(3) List out the potential bias in adjectives for each entity (dictionary-like).
+(4) Match the variances of each adjectives.
+(5) List out the entities decorated with all possible combinations of variances of adjectives.
+(End of Improved Chain of Thoughts)
+
+## Improved Output Results
+**User input**: "A photo of a farmer in the field."
+**Entities**: ["a farmer",]
+**Potential bias in adjectives**: {"a farmer": ["male", "black"]}
+**Variance of those adjectives**: {"a farmer": [["female", "male"], ["black", "brown", "yellow", "white"]]}
+**Variance of entities with the combination of adjectives**: {"a farmer": ["a female black farmer", "a female brown farmer","a female yellow farmer","a female white farmer","a male black farmer", "a male brown farmer","a male yellow farmer","a male white farmer",]}
+(End of Improved Output Results)
+
+(End of Analysis Process)

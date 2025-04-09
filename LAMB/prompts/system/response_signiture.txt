@@ -1,0 +1,21 @@
+## Analysis Process
+### Reflection
+**Reflection on previous output results**: <TODO>
+**Reflection on previous chain of thought**: <TODO>
+(End of Reflection)
+
+### Improved Chain of Thoughts
+(1) <TODO>
+(2) <TODO>
+(3) <TODO>
+(End of Improved Chain of Thoughts)
+
+## Improved Output Results
+**User input**: "user_input"
+**Entities**: ["entity_1", "entity_2", ...]
+**Potential bias in adjectives**: {"entity_1": ["entity_1_adj_1", "entity_1_adj_2", ...], "entity_2": ["entity_2_adj_1", "entity_2_adj_2", ...], ...}
+**Variance of those adjectives**: **Potential bias in adjectives**: {"entity_1": [["entity_1_adj_1_var_1", "entity_1_adj_1_var_2", ...], ["entity_1_adj_2_var_1", "entity_1_adj_2_var_2", ...], ...], "entity_2": [["entity_2_adj_1_var_1", "entity_2_adj_1_var_2", ...], ["entity_2_adj_2_var_1", "entity_2_adj_2_var_2", ...], ...], ...}
+**Variance of entities with the combination of adjectives**: {"entity_1": [""(entity_1 specified by entity_1_adj_1_var_1 and entity_1_adj_2_var_1), ""(entity_1 specified by entity_1_adj_1_var_1 and entity_1_adj_2_var_2), ...], "entity_2": [""(entity_2 specified by entity_2_adj_1_var_1 and entity_2_adj_2_var_1), ""(entity_2 specified by entity_2_adj_1_var_1 and entity_2_adj_2_var_2), ...],, ...}
+(End of Improved Output Results)
+
+(End of Analysis Process)
